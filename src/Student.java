@@ -12,7 +12,7 @@ public class Student {
     public enum SortKey {FIRSTNAME, LASTNAME, STUDENT_ID, WEIGHT, BIRTHDAY}
 
     Student(){
-        new Student(null, null, studentId, 0, new Date(0));
+        new Student(null, null, 0, 0, new Date(0));
     }
     Student(String cFristname, String cLastname, long cstudentID, double cWeight, Date cBirthday){
 
